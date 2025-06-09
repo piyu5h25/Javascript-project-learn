@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(151, 177, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#toppanel{
+    width: 100%;
+    height: 100px;
+    padding: 0px 15%;
+    background-color: rgb(72,104,72);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+    
+}
+.elem{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.box{
+    color: rgb(18,119,57);
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#pnlbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #67a140;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble h2{
+    font-weight: 500;
+}
+.bubble:hover{
+    background-color: #3d701a;
+    cursor: pointer;
+}
